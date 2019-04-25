@@ -1,0 +1,71 @@
+body
+{
+    /*Cambie la fuente a una que le agrade*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fondo
+{
+    /*cambie el color del fondo a uno que les agrade*/
+    background-color: chocolate;  
+    /*ancho y alto es width y height*/
+    width: 600px;
+    height: 500px;
+    /*¿Cómo se redondean los bordes?*/
+    border-radius: 10px;
+    /*border-...*/
+    /*¿Qué hace esto?*/
+    overflow: auto; 
+}
+
+#titulo
+{
+    color: yellow;
+    text-align: center;
+    float: inline-start;
+    font-size:40px;
+}
+
+#imagen
+{
+    /*ponga un margen de 10 pixeles a la imagen*/
+    /*margin*/
+    /*Esto hace que se pegue a la izquierda*/
+    float: left;
+    background-color: chocolate
+}
+
+#foto
+{
+    
+    /*Width y margin están mal, por eso la imagen no cuadra*/
+    width: 150%;
+    height:auto;
+    margin: 10%;
+    
+    background-color: white;
+    border-radius: 10px;
+}
+
+#integrantes
+{
+     
+    border-radius: 10px;
+    margin: 25px;   
+    color: white;
+    background-color: orange;    
+    float:right;  
+    text-align: center  
+    
+       
+}
+li
+{
+    margin: 20%; 
+    text-align: center   
+}
+
+.tituloInterno
+{
+    text-align: center
+}
